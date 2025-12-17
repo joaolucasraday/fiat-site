@@ -3,6 +3,7 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
+    overflow: hidden;
 }
 
 .linha-vermelha {
@@ -57,13 +58,34 @@ div.telefone-div {
     margin-top: 30px;
     padding-left: 10px;
 }
+
 main{
     margin-bottom: 0;
 }
-main img{
+
+div.slider {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(imagens/fiat-toro.jpg);
     width: 100%;
-    max-width: 2500px;
-    aspect-ratio: 2903 / 1297;
-    object-fit: cover;
-    margin: 0 0 0 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+div.slider a {
+    color: white;
+    background-color: black;
+    margin-top: 380px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: background-image 0.3s ease;
 }
