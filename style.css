@@ -1,0 +1,69 @@
+body {
+    margin: 0 0 0 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.linha-vermelha {
+    margin-top: 5px;
+    background-color: rgb(170, 14, 14);
+    height: 3px;
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    max-width: 110px;
+}
+
+header .italia {
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+
+nav {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+}
+
+header .telefone {
+    max-width: 30px;
+    max-height: 30px;
+    margin-top: 10px;
+}
+
+header p {
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+div.telefone-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+main{
+    margin-bottom: 0;
+}
+main img{
+    width: 100%;
+    max-width: 2500px;
+    aspect-ratio: 2903 / 1297;
+    object-fit: cover;
+    margin: 0 0 0 0;
+}
