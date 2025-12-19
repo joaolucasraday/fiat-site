@@ -87,16 +87,16 @@ section {
 
 .carro-catalogo {
     background-color: rgb(235, 235, 235);
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 2vw;
+    margin-left: 2vw;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 30vw;
 }
 
 .carro-catalogo img {
-    max-width: 350px;
+    max-width: 20vw;
     display: block;
     margin: auto;
     margin-top: 50px;
