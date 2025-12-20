@@ -121,13 +121,13 @@ section {
     background-color: black;
     color: white;
     text-decoration: none;
-    font-size: 1.5em;
-    padding: 15px 40px 15px 40px;
+    font-size: 1em;
+    padding: 5px 20px 5px 20px;
     text-align: center;
-    margin-top: 50px;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-bottom: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 40px;
     transition: all 0.2s;
 }
@@ -136,3 +136,18 @@ section {
     transform: scale(1.05);
 }
 
+@media (min-width: 1024px) {
+    .ver-mais {
+        font-size: 25px;
+        width: 200px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding: 15px 40px 15px 40px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .ver-mais {
+        width: 250px;
+    }
+}
