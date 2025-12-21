@@ -62,7 +62,6 @@ div.telefone-div {
 
 div.titulo {
     margin: 0 0 0 0;
-    background-image: url(imagens/mobi-wallpaper3.jpg);
     min-height: calc(100vh - 60px);
     background-size: cover;
     background-position: center; 
