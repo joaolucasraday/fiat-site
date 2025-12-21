@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIAT Argo</title>
+    <link rel="stylesheet" href="style-carro.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+        <header>
+            <div class="imagens-header">
+                <img src="imagens/fiat-logo-white.png" alt="logo-fiat-branco">
+                <img src="imagens/fiat-logo-italia.png" alt="logo-italia" class="italia">
+            </div>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="estoque.html" target="_self">Estoque</a>
+                <a href="#">Seminovos</a>
+                <a href="#">Fale conosco</a>
+                <a href="#">Sobre nós</a>
+            </nav>
+            <div class="telefone-div">
+                <img src="imagens/icone-telefone.png" alt="telefone-imagem" class="telefone">
+                <p>(12)1 1234-5678</p>
+            </div>
+        </header>
+    <main>
+        <div class="titulo" style="background-image: url(imagens/fiat-argo/2.jpg);">
+            <h1 style="color: rgb(255, 255, 255);">FIAT ARGO</h1>
+            <h2 style="color: rgb(255, 255, 255);">Quando dirigir deixa de ser rotina e vira prazer</h2>
+        </div>
+        <div class="conhecer">
+            <h1>Conheça o Argo</h1>
+            <article>
+                <ul>
+                    <li>Motor Flex 1.3 Firefly 4 cilindros</li>
+                    <li>98cv (gasolina)  107cv (etanol)</li>
+                    <li>Câmbio CVT com modo manual/li>
+                    <li>Tração dianteira</li>
+                    <li>8,9 km/l na cidade</li>
+                    <li>14,6 km/l na estrada</li>
+                </ul>
+                <div id="imgs-carro"
+                data-images="imagens/fiat-argo/argo-farol.jpg,imagens/fiat-argo/argo-traseira.jpg,imagens/fiat-argo/argo-interior.jpg"></div>
+            </article>
+            <article class="itens-div">
+                <div class="itens">
+                    <h2>Direção elétrica progressiva</h2>
+                    <img src="imagens/fiat-argo/direcao-eletrica.jpg" alt="Imagem da direção elétrica do Argo">
+                </div> 
+                <div class="itens">
+                    <h2>Piloto automático</h2>
+                    <img src="imagens/fiat-argo/piloto-automatico.jpg" alt="Imagem do piloto automático">
+                </div> 
+                <div class="itens">
+                    <h2>Monitoramento de pressão</h2>
+                    <img src="imagens/fiat-argo/pressao-pneus.jpg" alt="Imagem do monitoramento de pressão do Argo">
+                </div> 
+            </article>
+        </div>
+    </main>
+    <section>
+        <h1>Compre agora</h1>
+        <div class="personalizar">
+            <div class="cores">
+                <h2>Personalize seu carro</h2>
+                <img id="car-color-img" src="imagens/fiat-argo/preto.webp" alt="Imagem do Fiat Argo"
+                data-preto="imagens/fiat-argo/preto.webp"
+                data-vermelho="imagens/fiat-argo/vermelho.webp"
+                data-branco="imagens/fiat-argo/branco.webp"
+                data-chumbo="imagens/fiat-argo/chumbo.webp"
+                data-prata="imagens/fiat-argo/prata.webp">
+                <p>Selecione a <strong>cor do seu carro</strong></p>
+                <div class="color-buttons">
+                    <button data-color="preto" id="preto"></button>
+                    <button data-color="vermelho" id="vermelho"></button>
+                    <button data-color="branco" id="branco"></button>
+                    <button data-color="chumbo" id="chumbo"></button>
+                    <button data-color="prata" id="prata"></button>
+                </div>
+            </div>
+            <div class="preços">
+                <h1>Fiat Argo 1.3 FireFly Flex 4P</h1>
+                <h2>A partir de R$ 97.990,00</h2>
+                <a href="#" class="comprar-agora">Comprar agora</a>
+                <a href="#" class="parcelas">Simular parcelas</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <img src="imagens/fiat-logo-italia.png" alt="logo da italia da fiat">
+        <p>Site criado por <strong>João Lucas Raday</strong></p>
+    </footer>
+
+    <script src="script-carro.js"></script>
+</body>
+</html>
