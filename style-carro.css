@@ -72,9 +72,9 @@ div.titulo {
 }
 
 .titulo h1 {
-    margin-top: 170px;
-    margin-left: 20px;
-    font-size: 5vw;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 3vw;
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 10px;
@@ -84,7 +84,7 @@ div.titulo {
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 30px;
-    font-size: 2em;
+    font-size: 1.2vw;
     margin-top: 0;
     max-width: 400px;
 }
