@@ -70,6 +70,14 @@ div.telefone-div {
     color: white;
 }
 
+h1 {
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
 .catalogo {
     display: flex;
     justify-content: center;
@@ -145,9 +153,32 @@ div.telefone-div {
     width: 70%;
     padding: 8px 15px 8px 15px;
     border-radius: 10px;
-    transition: transform 0.1s ease;
+    transition: transform 0.2s ease;
 }
 
 .seminovo-item a:hover {
     transform: scale(1.1);
+}
+
+footer {
+    background-color: black;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+    position: relative;      
+    height: 50px;
+}
+
+footer img {
+    max-width: 55px;
+    margin-top: 3px;
+    position: absolute;
+    left: 20px;              
+    height: 40px;
+}
+
+footer p {
+    color: white;
+    margin: 0;
 }

@@ -278,9 +278,9 @@ footer {
     background-color: black;
     margin-top: 40px;
     display: flex;
-    align-items: center;      /* alinha na mesma linha */
-    justify-content: center;  /* centraliza o conteúdo */
-    position: relative;      /* permite posicionar a imagem */
+    align-items: center;     
+    justify-content: center;  
+    position: relative;      
     height: 50px;
 }
 
@@ -288,7 +288,7 @@ footer img {
     max-width: 55px;
     margin-top: 3px;
     position: absolute;
-    left: 20px;              /* canto esquerdo */
+    left: 20px;           
     height: 40px;
 }
 
