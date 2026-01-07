@@ -200,6 +200,17 @@ h1 {
     display: block;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    color: rgb(68, 68, 68);
+    border: 1px  solid rgba(68, 68, 68, 0.308);
+    text-indent: 20px;
+}
+
+.box {
+    display: none;
 }
 footer {
     background-color: black;
