@@ -176,7 +176,30 @@ h1 {
     margin-right: 50px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+}
 
+.pesquisa > h1 {
+    color: rgb(68, 68, 68);
+}
+
+.linha-pesquisa {
+    width: 420px;
+    height: 2px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.pesquisa > input {
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
 }
 footer {
     background-color: black;
