@@ -83,11 +83,14 @@ h1 {
     justify-content: center;
 }
 
+.carros {
+    max-height: 700px;
+}
+
 .catalogo {
-    display: flex;
-    justify-content: center;
-    margin-right: 50px;
-    margin-left: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    max-height: 100vh;
 }
 
 .seminovo-item {
@@ -171,11 +174,14 @@ h1 {
     background-color: rgb(235, 235, 235);
     width: 450px;
     margin-top: 30px;
-    height: 930px;
+    height: 921px;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+    overflow: scroll;
+    overflow-x: hidden;
+
 }
 
 .pesquisa > h1 {
