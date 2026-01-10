@@ -150,3 +150,21 @@ section {
         width: 250px;
     }
 }
+
+/*scrollbar*/
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
