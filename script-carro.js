@@ -1,3 +1,5 @@
+//passar imagens do carro
+
 const hero = document.getElementById('imgs-carro');
 
 if (hero) {
@@ -14,7 +16,7 @@ if (hero) {
   setInterval(changeBackground, 5000);
 }
 
-/////////////////////
+//cores do carro
 
 
 const img = document.getElementById('car-color-img');
