@@ -209,15 +209,38 @@ h1 {
     margin-bottom: 20px;
 }
 
-.search-box {
+.filtro-caixa {
     color: rgb(68, 68, 68);
     border: 1px  solid rgba(68, 68, 68, 0.308);
     text-indent: 20px;
+    cursor: pointer;
+    user-select: none;
 }
 
-.box {
-    display: none;
+.filtro-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.seta {
+    width: 25px;
+    transition: transform 0.3s ease;
+    margin-right: 20px;
+}
+
+.seta.ativo {
+    transform: rotate(180deg);
+}
+
+.filtro-opcoes {
+  display: none;
+}
+
+.filtro-opcoes.ativo {
+  display: block;
+}
+
 footer {
     background-color: black;
     margin-top: 40px;
