@@ -37,3 +37,13 @@ if (img && buttons.length) {
   });
 
 }
+
+// ver mais button
+
+document.getElementById('sabermais').addEventListener('click', function() {
+  window.scrollBy({
+    top: window.innerHeight, 
+    left: 0, 
+    behavior: 'smooth'
+  })
+});
