@@ -10,7 +10,7 @@ header{
     display: flex;
     justify-content: space-between;
     height: 60px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin-bottom: 0px;
 }
 
@@ -59,6 +59,13 @@ div.telefone-div {
     justify-content: space-between;
     color: white;
     margin-top: 15px;
+}
+
+img#logo-canto {
+    width: 100px;
+    position:absolute;
+    top: 91%;
+    left: 94%;
 }
 
 #sabermais {
