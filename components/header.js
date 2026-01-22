@@ -1,7 +1,7 @@
 function aplicarHeader() {
     const headerContainer = document.getElementById("header");
     if (!headerContainer) {
-        console.error("Não encontrei o elemento com ID 'aplicarHeader'");
+        console.error("Não encontrei o elemento com ID 'header'");
         return;
         }
     headerContainer.innerHTML = `
@@ -24,4 +24,4 @@ function aplicarHeader() {
     </header>`;
 }
 
-window.onload = aplicarHeader;
+document.addEventListener('DOMContentLoaded', aplicarHeader);

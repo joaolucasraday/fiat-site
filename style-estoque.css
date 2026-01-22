@@ -151,6 +151,30 @@ section {
     }
 }
 
+footer {
+    background-color: black;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;     
+    justify-content: center;  
+    position: relative;      
+    height: 50px;
+}
+
+footer img {
+    max-width: 55px;
+    margin-top: 3px;
+    position: absolute;
+    left: 20px;           
+    height: 40px;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+}
+
+
 /*scrollbar*/
 body::-webkit-scrollbar {
     width: 8px;
