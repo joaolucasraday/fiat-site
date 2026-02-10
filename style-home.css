@@ -21,22 +21,22 @@ header {
     background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.534), transparent);
     display: flex;
     justify-content: space-between;
-    height: 94.52px;
-    margin: 0 0 0 0;
+    height: 80px;
+    align-items: center;
 }
 
 header img {
-    max-width: 110px;
+    max-width: 100px;
 }
 
 header .italia {
-    max-width: 80px;
+    max-width: 70px;
     margin-bottom: 15px;
+    padding-right: 20px;
 }
 
 nav {
     margin: auto;
-    margin-bottom: 20px;
 }
 
 nav a {
@@ -68,7 +68,6 @@ header p {
 div.telefone-div {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
     padding-left: 10px;
 }
 
@@ -118,7 +117,7 @@ main > h2 {
     width: 450px;
     margin: auto;
     position: absolute;
-    top: 830px;
+    top: 850px;
     left: 50%;
     transform: translateX(-50%);
 }

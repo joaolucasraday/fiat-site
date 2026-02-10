@@ -18,22 +18,23 @@ body {
 header{
     display: flex;
     justify-content: space-between;
-    height: 94.52px;
+    height: 80px;
     background-color: black;
+    align-items: center;
 }
 
-header img {
-    max-width: 110px;
+header .logo {
+    max-width: 100px;
 }
 
 header .italia {
-    max-width: 80px;
+    max-width: 70px;
     margin-bottom: 15px;
+    padding-right: 20px;
 }
 
 nav {
     margin: auto;
-    margin-bottom: 20px;
 }
 
 nav a {
@@ -65,7 +66,6 @@ header p {
 div.telefone-div {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
     padding-left: 10px;
     color: white;
 }
@@ -89,13 +89,12 @@ section {
     margin-right: 2vw;
     margin-left: 2vw;
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
     width: 30vw;
 }
 
 .carro-catalogo img {
     max-width: 20vw;
+    min-width: 230px;
     display: block;
     margin: auto;
     margin-top: 50px;
@@ -103,7 +102,7 @@ section {
 
 .carro-catalogo h1 {
     margin-top: 30px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     font-weight: bold;
 }
 
@@ -111,7 +110,7 @@ section {
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 30px;
+    margin-bottom: 0;
     color: rgb(105, 105, 105);
     font-size: 1.1em;
 }
@@ -125,8 +124,6 @@ section {
     text-align: center;
     display: block;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
     border-radius: 40px;
     transition: transform 0.2s ease;
 }
@@ -135,21 +132,6 @@ section {
     transform: scale(1.05);
 }
 
-@media (min-width: 1024px) {
-    .ver-mais {
-        font-size: 25px;
-        width: 200px;
-        margin-top: 50px;
-        margin-bottom: 30px;
-        padding: 15px 40px 15px 40px;
-    }
-}
-
-@media (min-width: 1600px) {
-    .ver-mais {
-        width: 250px;
-    }
-}
 
 footer {
     background-color: black;
@@ -162,7 +144,7 @@ footer {
 }
 
 footer img {
-    max-width: 55px;
+    width: 55px;
     margin-top: 3px;
     position: absolute;
     left: 20px;           
@@ -191,4 +173,87 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover {
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px){
+    header{
+        height: 60px;
+        padding-top: 15px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header .logo{
+        display: none;
+    }
+
+    header.italia{
+        display: block;
+    }
+
+    div .telefone-div{
+        display: none;
+    }
+
+    h1{
+        font-size: 1.8em;
+        margin-top: 20px;
+    }
+    section {
+        display: contents;
+    }
+    .carro-catalogo {   
+        display: block;
+        margin: auto;
+        width: 350px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .carro-catalogo h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .carro-catalogo img {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .ver-mais{
+        margin-top: 20px;
+        width: 230px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    footer {
+        height: 45px;
+        margin-top: 20px;
+    }
+    footer img{
+        left: 10px;
+        width: 50px;
+        height: 35px;
+    }
+    footer p{
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .ver-mais {
+        font-size: 25px;
+        width: 200px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding: 15px 40px 15px 40px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .ver-mais {
+        width: 250px;
+    }
 }
