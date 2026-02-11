@@ -3,9 +3,7 @@ function aplicarHeader() {
     headerContainer.innerHTML = `
     <header>
         <div class="imagens-header">
-            <a href="index.html" target="_self">
-                <img src="imagens/fiat-logo-white.png" alt="logo-fiat-branco" class="logo">
-            </a>
+            <a href="index.html" target="_self"><img src="imagens/fiat-logo-white.png" alt="logo-fiat-branco" class="logo"></a>
             <img src="imagens/fiat-logo-italia.png" alt="fiat-logo-italia" class="italia">
             </div>
         <h1 id="titulo"></h1>
