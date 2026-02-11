@@ -32,6 +32,7 @@ header{
     left: 50%;
     transform: translateX(-50%);
     margin: 0;
+    font-size: 1.8em;
 }
 
 .hamburguer {
@@ -100,7 +101,7 @@ nav.ativo {
     padding: 5px 0;
     text-align: center;
     border-top: 1px solid grey;
-    border-bottom: 5px solid rgb(170, 14, 14);
+    border-bottom: 3px solid rgb(170, 14, 14);
 }
 
 nav.ativo a {
