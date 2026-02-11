@@ -12,7 +12,7 @@ function aplicarHeader() {
             <span></span>
             <span></span>
         </div>
-        <nav>
+        <nav class="nav">
             <a href="index.html" target="_self">Home</a>
             <a href="estoque.html" target="_self">Estoque</a>
             <a href="seminovos.html">Seminovos</a>
@@ -30,3 +30,14 @@ function aplicarHeader() {
 }
 
 document.addEventListener('DOMContentLoaded', aplicarHeader);
+
+// HAMBURGUER
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburguer = document.querySelector(".hamburguer");
+    const nav = document.querySelector("nav");
+
+    hamburguer.addEventListener("click", function () {
+        hamburguer.classList.toggle("ativo");
+        nav.classList.toggle("ativo");
+    });
+});

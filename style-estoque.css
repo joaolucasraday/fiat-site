@@ -51,6 +51,18 @@ header{
     transition: 0.3s;
 }
 
+.hamburguer.ativo span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburguer.ativo span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburguer.ativo span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
 header .logo {
     max-width: 100px;
 }
@@ -76,6 +88,27 @@ nav a {
 
 nav a:hover{
     transform: scale(1.15);
+}
+nav.ativo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 83px;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    padding: 5px 0;
+    text-align: center;
+    border-top: 1px solid grey;
+    border-bottom: 5px solid rgb(170, 14, 14);
+}
+
+nav.ativo a {
+    width: fit-content;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
 }
 
 header .telefone {
@@ -206,6 +239,7 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 768px){
     header{
         height: 60px;
+        min-width: 350px;
         padding-top: 15px;
     }
 
@@ -216,7 +250,7 @@ body::-webkit-scrollbar-thumb:hover {
 
     .hamburguer{
         display: flex;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         margin-right: 20px;
     }
 
@@ -268,16 +302,16 @@ body::-webkit-scrollbar-thumb:hover {
         font-size: 1.3em;
     }
     footer {
-        height: 45px;
+        height: 60px;
         margin-top: 20px;
     }
     footer img{
         left: 10px;
-        width: 50px;
-        height: 35px;
+        width: 55px;
+        height: 40px;
     }
     footer p{
-        font-size: 0.9em;
+        font-size: 1em;
     }
 }
 
