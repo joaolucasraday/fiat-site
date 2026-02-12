@@ -423,4 +423,24 @@ body::-webkit-scrollbar-thumb:hover {
     div .telefone-div{
         display: none;
     }
+    h1{
+        font-size: 1.8em;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .pesquisa{
+        display: none;
+    }
+    .catalogo{
+        grid-template-columns: auto auto;
+    }
+    .seminovo-item{
+        width: 150px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .seminovo-item img{
+        width: 120px;
+        height: 100px;
+    }
 }
